@@ -14,26 +14,8 @@
   <body>
     <form onsubmit="convertMeasurement(event)">
       <input type="text" name="value" placeholder="Enter value" />
-      <select name="from">
-        <option value="inches">Inches</option>
-        <option value="feet">Feet</option>
-        <option value="yards">Yards</option>
-        <option value="miles">Miles</option>
-        <option value="millimeters">Millimeters</option>
-        <option value="centimeters">Centimeters</option>
-        <option value="meters">Meters</option>
-        <option value="kilometers">Kilometers</option>
-      </select>
-      <select name="to">
-        <option value="inches">Inches</option>
-        <option value="feet">Feet</option>
-        <option value="yards">Yards</option>
-        <option value="miles">Miles</option>
-        <option value="millimeters">Millimeters</option>
-        <option value="centimeters">Centimeters</option>
-        <option value="meters">Meters</option>
-        <option value="kilometers">Kilometers</option>
-      </select>
+      <select name="from"></select>
+      <select name="to"></select>
       <button type="submit">Convert</button>
     </form>
     <p id="result"></p>
