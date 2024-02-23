@@ -1,2 +1,3 @@
-# measurement-converter-website
-A website made for class to convert measurements.
+# Measurement Converter Website
+
+A website that converts measurements from one unit to another. Made for school.
